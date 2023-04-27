@@ -51,9 +51,9 @@ def recommendMovie(emotion):
 
 def main():
     #Input from User's camera
-    #captureImage()
-    #results = analyzeEmotion('user_image.jpg')
-    results = analyzeEmotion('Test Case 3 - Happy.jpg')
+    captureImage()
+    results = analyzeEmotion('user_image.jpg')
+    #Test Case from existing image#results = analyzeEmotion('Test Case 3 - Happy.jpg')
     #Test Case from existing image#results = analyzeEmotion('Test Case 2 - Sad.jpg')
     #Test Case from existing image#results = analyzeEmotion('Test Case 3 - Happy.jpg')
     for i, result in enumerate(results):
